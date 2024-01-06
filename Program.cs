@@ -31,9 +31,6 @@ class Program
         // pull out the string content
         string responseContent = responseMessage.Content.ReadAsStringAsync().Result;
 
-        // print out the response to make sure things are working
-        System.Console.WriteLine(responseContent);
-
         // once we have the HTML, parse the document
         var doc = new HtmlDocument();
         doc.LoadHtml(responseContent);
@@ -44,5 +41,8 @@ class Program
         {
             storyText.AppendLine(pTag.InnerText);
         }
+
+        // print out the final product
+        System.Console.WriteLine(storyText.ToString());
     }
 }

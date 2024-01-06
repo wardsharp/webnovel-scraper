@@ -14,8 +14,9 @@ I'm using the .Net 8.0 SDK for this project. You can download it for your operat
 ### Create a new project
 ```
 dotnet new console --framework net8.0 --use-program-main --name  webnovel-scraper
+cd webnovel-scraper
 ```
-This will create a new console project using .NET 8.0 and name the project `webnovel-scraper`. Note that this creates a new folder matching your project name and puts the files there
+This will create a new console project using .NET 8.0 and name the project `webnovel-scraper`. Note that this creates a new folder matching your project name and puts the files there.
 
 ### Install the requisite nuget packages
 ```
