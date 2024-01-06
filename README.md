@@ -34,7 +34,7 @@ To run the project directly, make sure that you have the .NET 8.0 SDK installed 
 Then clone the repo using a command similar to the following: 
 
 ```
-git clone <REPO url>
+git clone https://github.com/wardsharp/webnovel-scraper.git
 ```
 
 `cd` into the project directory
